@@ -78,10 +78,132 @@
     @include container;
   }
 
+  &__offset {
+    padding: 20px 0;
+  }
+
   &__title {
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     color: var(--black);
+  }
+
+  &__swiper {
+    margin: 20px 0 0 0;
+    height: 199px;
+  }
+
+  &__slider {
+    width: 133px;
+    height: 199px;
+  }
+}
+
+.stickers {
+  &__container {
+    @include container;
+  }
+
+  &__offset {
+    padding: 20px 0;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--black);
+  }
+
+  &__swiper {
+    margin: 20px 0 0 0;
+    height: 199px;
+  }
+
+  &__slider {
+    width: 133px;
+    height: 199px;
+  }
+}
+
+.key-chains {
+  &__container {
+    @include container;
+  }
+
+  &__offset {
+    padding: 20px 0;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--black);
+  }
+
+  &__swiper {
+    margin: 20px 0 0 0;
+    height: 199px;
+  }
+
+  &__slider {
+    width: 133px;
+    height: 199px;
+  }
+}
+
+.notebooks {
+  &__container {
+    @include container;
+  }
+
+  &__offset {
+    padding: 20px 0;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--black);
+  }
+
+  &__swiper {
+    margin: 20px 0 0 0;
+    height: 199px;
+  }
+
+  &__slider {
+    width: 133px;
+    height: 199px;
+  }
+}
+
+.mugs {
+  &__container {
+    @include container;
+  }
+
+  &__offset {
+    padding: 20px 0;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--black);
+  }
+
+  &__swiper {
+    margin: 20px 0 0 0;
+    height: 199px;
+  }
+
+  &__slider {
+    width: 133px;
+    height: 199px;
   }
 }
