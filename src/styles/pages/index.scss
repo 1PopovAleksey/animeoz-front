@@ -1,0 +1,87 @@
+@import '../mixins.scss';
+
+.hero {
+  &__container {
+    @include container;
+  }
+
+  &__offset {
+    padding: 20px 0;
+  }
+
+  &__flex {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__big-swiper {
+    width: 793px;
+    height: 387px;
+  }
+
+  &__left-swiper {
+    width: 793px;
+    height: 387px;
+    border-radius: 5px;
+    background: var(--gray);
+  }
+
+  &__small-swiper {
+    width: 387px;
+    height: 387px;
+  }
+
+  &__right-swiper {
+    width: 387px;
+    height: 387px;
+    border-radius: 5px;
+    background: var(--gray);
+  }
+}
+
+.nav {
+  &__container {
+    @include container;
+  }
+
+  &__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__link {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--black);
+  }
+}
+
+.banners {
+  &__container {
+    @include container;
+  }
+
+  &__offset {
+    padding: 20px 0;
+  }
+
+  &__swiper {
+    height: 126px;
+  }
+}
+
+.hits {
+  &__container {
+    @include container;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--black);
+  }
+}
