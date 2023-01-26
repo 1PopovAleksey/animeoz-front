@@ -41,13 +41,18 @@ export default function Header() {
               <input type="text" name="search" id="search" placeholder="Поиск" />
               <button>Найти</button>
             </div>
-            <Link className="header__favorite" href="/">
-              <Favorite />
-            </Link>
-            <Link className="header__cart" href="/">
-              <Cart />
-              <span>{amountCart}</span>
-            </Link>
+            <div className="header__flex">
+              <Link className="header__cart" href="/">
+                ВХОД
+              </Link>
+              <Link className="header__favorite" href="/">
+                <Favorite />
+              </Link>
+              <Link className="header__cart" href="/">
+                <Cart />
+                <span>{amountCart}</span>
+              </Link>
+            </div>
           </div>
         </div>
       </header>
