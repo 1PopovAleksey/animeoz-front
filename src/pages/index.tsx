@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -8,6 +9,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import { Pagination, Navigation } from 'swiper';
+
+import anime_post_1 from '../../public/assets/img/anime-post-1.jpg';
 
 export default function Home() {
   return (
@@ -96,21 +99,171 @@ export default function Home() {
               modules={[Pagination, Navigation]}
               className="banners__swiper"
             >
-              <SwiperSlide>Slide 1</SwiperSlide>
-              <SwiperSlide>Slide 2</SwiperSlide>
-              <SwiperSlide>Slide 3</SwiperSlide>
-              <SwiperSlide>Slide 4</SwiperSlide>
-              <SwiperSlide>Slide 5</SwiperSlide>
-              <SwiperSlide>Slide 6</SwiperSlide>
-              <SwiperSlide>Slide 7</SwiperSlide>
-              <SwiperSlide>Slide 8</SwiperSlide>
-              <SwiperSlide>Slide 9</SwiperSlide>
-              <SwiperSlide>Slide 10</SwiperSlide>
-              <SwiperSlide>Slide 11</SwiperSlide>
-              <SwiperSlide>Slide 12</SwiperSlide>
-              <SwiperSlide>Slide 13</SwiperSlide>
-              <SwiperSlide>Slide 14</SwiperSlide>
-              <SwiperSlide>Slide 15</SwiperSlide>
+              <SwiperSlide>
+                <Link className="banners__link" href="/">
+                  <Image
+                    className="banners__img"
+                    src="/assets/img/anime-post-1.jpg"
+                    width={1280}
+                    height={720}
+                    alt="anime-post"
+                  />
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Link className="banners__link" href="/">
+                  <Image
+                    className="banners__img"
+                    src="/assets/img/anime-post-1.jpg"
+                    width={1280}
+                    height={720}
+                    alt="anime-post"
+                  />
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Link className="banners__link" href="/">
+                  <Image
+                    className="banners__img"
+                    src="/assets/img/anime-post-1.jpg"
+                    width={1280}
+                    height={720}
+                    alt="anime-post"
+                  />
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Link className="banners__link" href="/">
+                  <Image
+                    className="banners__img"
+                    src="/assets/img/anime-post-1.jpg"
+                    width={1280}
+                    height={720}
+                    alt="anime-post"
+                  />
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Link className="banners__link" href="/">
+                  <Image
+                    className="banners__img"
+                    src="/assets/img/anime-post-1.jpg"
+                    width={1280}
+                    height={720}
+                    alt="anime-post"
+                  />
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Link className="banners__link" href="/">
+                  <Image
+                    className="banners__img"
+                    src="/assets/img/anime-post-1.jpg"
+                    width={1280}
+                    height={720}
+                    alt="anime-post"
+                  />
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Link className="banners__link" href="/">
+                  <Image
+                    className="banners__img"
+                    src="/assets/img/anime-post-1.jpg"
+                    width={1280}
+                    height={720}
+                    alt="anime-post"
+                  />
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Link className="banners__link" href="/">
+                  <Image
+                    className="banners__img"
+                    src="/assets/img/anime-post-1.jpg"
+                    width={1280}
+                    height={720}
+                    alt="anime-post"
+                  />
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Link className="banners__link" href="/">
+                  <Image
+                    className="banners__img"
+                    src="/assets/img/anime-post-1.jpg"
+                    width={1280}
+                    height={720}
+                    alt="anime-post"
+                  />
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Link className="banners__link" href="/">
+                  <Image
+                    className="banners__img"
+                    src="/assets/img/anime-post-1.jpg"
+                    width={1280}
+                    height={720}
+                    alt="anime-post"
+                  />
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Link className="banners__link" href="/">
+                  <Image
+                    className="banners__img"
+                    src="/assets/img/anime-post-1.jpg"
+                    width={1280}
+                    height={720}
+                    alt="anime-post"
+                  />
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Link className="banners__link" href="/">
+                  <Image
+                    className="banners__img"
+                    src="/assets/img/anime-post-1.jpg"
+                    width={1280}
+                    height={720}
+                    alt="anime-post"
+                  />
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Link className="banners__link" href="/">
+                  <Image
+                    className="banners__img"
+                    src="/assets/img/anime-post-1.jpg"
+                    width={1280}
+                    height={720}
+                    alt="anime-post"
+                  />
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Link className="banners__link" href="/">
+                  <Image
+                    className="banners__img"
+                    src="/assets/img/anime-post-1.jpg"
+                    width={1280}
+                    height={720}
+                    alt="anime-post"
+                  />
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Link className="banners__link" href="/">
+                  <Image
+                    className="banners__img"
+                    src="/assets/img/anime-post-1.jpg"
+                    width={1280}
+                    height={720}
+                    alt="anime-post"
+                  />
+                </Link>
+              </SwiperSlide>
             </Swiper>
           </div>
         </div>
@@ -133,30 +286,270 @@ export default function Home() {
                 modules={[Pagination, Navigation]}
                 className="hits__swiper"
               >
-                <SwiperSlide className="hits__slide">Slide 1</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 2</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 3</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 4</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 5</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 6</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 7</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 8</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 9</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 10</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 11</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 12</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 13</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 14</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 15</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 16</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 17</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 18</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 19</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 20</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 21</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 22</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 23</SwiperSlide>
-                <SwiperSlide className="hits__slide">Slide 24</SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="hits__slide">
+                  <Link className="hits__link" href="/">
+                    <Image
+                      className="hits__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
               </Swiper>
             </div>
           </div>
@@ -180,30 +573,270 @@ export default function Home() {
                 modules={[Pagination, Navigation]}
                 className="stickers__swiper"
               >
-                <SwiperSlide className="stickers__slider">Slide 1</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 2</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 3</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 4</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 5</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 6</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 7</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 8</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 9</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 10</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 11</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 12</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 13</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 14</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 15</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 16</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 17</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 18</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 19</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 20</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 21</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 22</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 23</SwiperSlide>
-                <SwiperSlide className="stickers__slider">Slide 24</SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
+                <SwiperSlide className="stickers__slide">
+                  <Link className="stickers__link" href="/">
+                    <Image
+                      className="stickers__img"
+                      src="/assets/img/anime-post-1.jpg"
+                      width={1280}
+                      height={720}
+                      alt="anime-post"
+                    />
+                  </Link>
+                </SwiperSlide>
               </Swiper>
             </div>
           </div>
