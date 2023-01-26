@@ -71,6 +71,16 @@
   &__swiper {
     height: 126px;
   }
+
+  &__link {
+    border-radius: 5px;
+  }
+
+  &__img {
+    width: 224px;
+    height: 126px;
+    border-radius: 5px;
+  }
 }
 
 .hits {
@@ -97,6 +107,16 @@
   &__slider {
     width: 133px;
     height: 199px;
+  }
+
+  &__link {
+    border-radius: 5px;
+  }
+
+  &__img {
+    width: 133px;
+    height: 199px;
+    border-radius: 5px;
   }
 }
 
@@ -125,6 +145,16 @@
     width: 133px;
     height: 199px;
   }
+
+  &__link {
+    border-radius: 5px;
+  }
+
+  &__img {
+    width: 133px;
+    height: 199px;
+    border-radius: 5px;
+  }
 }
 
 .key-chains {
@@ -151,6 +181,16 @@
   &__slider {
     width: 133px;
     height: 199px;
+  }
+
+  &__link {
+    border-radius: 5px;
+  }
+
+  &__img {
+    width: 133px;
+    height: 199px;
+    border-radius: 5px;
   }
 }
 
@@ -179,6 +219,16 @@
     width: 133px;
     height: 199px;
   }
+
+  &__link {
+    border-radius: 5px;
+  }
+
+  &__img {
+    width: 133px;
+    height: 199px;
+    border-radius: 5px;
+  }
 }
 
 .mugs {
@@ -206,10 +256,20 @@
     width: 133px;
     height: 199px;
   }
+
+  &__link {
+    border-radius: 5px;
+  }
+
+  &__img {
+    width: 133px;
+    height: 199px;
+    border-radius: 5px;
+  }
 }
 
 .swiper-button-next {
-  right: -20px !important;
+  right: 10px !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -233,7 +293,7 @@
 }
 
 .swiper-button-prev {
-  left: -20px !important;
+  left: 10px !important;
   display: flex;
   align-items: center;
   justify-content: center;
