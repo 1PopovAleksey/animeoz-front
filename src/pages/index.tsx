@@ -306,7 +306,7 @@ export default function Home() {
       <section className="mugs">
         <div className="mugs__container">
           <div className="mugs__offset">
-            <h2 className="mugs__title">Кружка</h2>
+            <h2 className="mugs__title">Кружки</h2>
             <div>
               <Swiper
                 spaceBetween={20}
