@@ -1,5 +1,5 @@
 <template>
-  <header class="header">
+  <header id="header" class="header">
     <div class="header__top">
       <div class="header__container header__flex header__flex_top">
         <nav class="header__nav">
@@ -14,7 +14,7 @@
     <div class="header__bottom">
       <div class="header__container header__flex header__flex_bottom">
         <RouterLink class="header__logo" to="/">
-          <HeaderLogo />
+          <LogoIcon />
         </RouterLink>
         <button class="header__catalog">
           <HeaderBurger />
@@ -41,13 +41,60 @@
   <main>
     <RouterView />
   </main>
-  <footer></footer>
+  <footer id="footer" class="footer">
+    <div class="footer__top">
+      <div class="footer__container footer__flex footer__flex_top">
+        <div class="footer__offset">
+          <RouterLink class="footer__logo" to="/">
+            <LogoIcon />
+          </RouterLink>
+          <div class="footer__flex footer__flex_row">
+            <div class="footer__flex footer__flex_column">
+              <h3 class="footer__title">Информация</h3>
+              <nav class="footer__nav">
+                <RouterLink class="footer__link" to="/">
+                  Оплата и доставка
+                </RouterLink>
+                <RouterLink class="footer__link" to="/">О нас</RouterLink>
+                <RouterLink class="footer__link" to="/">Контакты</RouterLink>
+                <RouterLink class="footer__link" to="/">Акции</RouterLink>
+              </nav>
+            </div>
+            <div class="footer__flex footer__flex_column">
+              <h3 class="footer__title">Аккаунт</h3>
+              <nav class="footer__nav">
+                <RouterLink class="footer__link" to="/">
+                  Оплата и доставка
+                </RouterLink>
+                <RouterLink class="footer__link" to="/">О нас</RouterLink>
+                <RouterLink class="footer__link" to="/">Контакты</RouterLink>
+                <RouterLink class="footer__link" to="/">Акции</RouterLink>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__container">
+        <div class="footer__flex footer__flex_space-between">
+          <RouterLink class="footer__link_bottom" to="/">
+            Политика конфиденциальности
+          </RouterLink>
+          <span class="footer__copiright">© ANIMEOЗ</span>
+          <RouterLink class="footer__link_bottom" to="/">
+            Пользовательское соглашение
+          </RouterLink>
+        </div>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 // Icons
-import HeaderLogo from "./components/icons/HeaderLogo.vue";
+import LogoIcon from "./components/icons/LogoIcon.vue";
 import HeaderBurger from "./components/icons/HeaderBurger.vue";
 import HeaderLogin from "./components/icons/HeaderLogin.vue";
 import HeaderFavorite from "./components/icons/HeaderFavorite.vue";
@@ -132,7 +179,7 @@ import HeaderCart from "./components/icons/HeaderCart.vue";
     display: flex;
     width: 590px;
     height: 50px;
-    border: 1px solid var(--sky-magenta);
+    border: 2px solid var(--sky-magenta);
     border-radius: 5px;
     background-color: var(--sky-magenta);
 
@@ -174,6 +221,82 @@ import HeaderCart from "./components/icons/HeaderCart.vue";
     align-items: center;
     justify-content: space-between;
     width: 184px;
+  }
+}
+
+.footer {
+  &__top {
+    display: flex;
+    background-color: var(--sky-magenta);
+  }
+
+  &__container {
+    @include container;
+  }
+
+  &__flex {
+    display: flex;
+
+    &_top {
+      flex-direction: column;
+    }
+
+    &_row {
+      flex-direction: row;
+      gap: 20px;
+    }
+
+    &_column {
+      flex-direction: column;
+      gap: 15px;
+      margin: 20px 0 0 0;
+      width: 183px;
+    }
+
+    &_space-between {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__offset {
+    padding: 20px 0 40px 0;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 183px;
+    height: 50px;
+    border-radius: 5px;
+    background: var(--xiketic);
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: var(--white);
+  }
+
+  &__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--white);
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    height: 50px;
   }
 }
 </style>
