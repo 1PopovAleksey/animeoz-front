@@ -1,0 +1,1 @@
+import{_ as s,o as t,c as a,a as e}from"./index-5157de39.js";const c={data(){return{items:[{id:1,name:"Naming",catagery:"cup"}]}}},n={class:"new"},o=e("div",{class:"new__container"},[e("div",{class:"new__offset"},[e("div",{class:"filter"},[e("h2",null,"Фильтр")])])],-1),_=[o];function r(i,d,l,f,p,m){return t(),a("section",n,_)}const h=s(c,[["render",r]]);export{h as default};
