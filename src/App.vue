@@ -25,13 +25,14 @@
           <button>Найти</button>
         </div>
         <div class="header__user">
-          <button class="header__login">
+          <button class="header__login" @click="changeVisible">
             <HeaderLogin />
           </button>
-          <RouterLink class="header__favorite" to="/">
+          <LoginModal v-show="showPopup" @close="changeVisible" />
+          <RouterLink class="header__favorite" to="/favorite">
             <HeaderFavorite />
           </RouterLink>
-          <RouterLink class="header__cart" to="/">
+          <RouterLink class="header__cart" to="/cart">
             <HeaderCart />
           </RouterLink>
         </div>
@@ -99,6 +100,14 @@ import HeaderBurger from "./components/icons/HeaderBurger.vue";
 import HeaderLogin from "./components/icons/HeaderLogin.vue";
 import HeaderFavorite from "./components/icons/HeaderFavorite.vue";
 import HeaderCart from "./components/icons/HeaderCart.vue";
+// Modals
+import LoginModal from "./components/modals/LoginModal.vue";
+
+import { useCounterStore } from "./stores/auth";
+import { storeToRefs } from "pinia";
+
+const { showPopup } = storeToRefs(useCounterStore());
+const { changeVisible } = useCounterStore();
 </script>
 
 <style scoped lang="scss">
@@ -297,6 +306,20 @@ import HeaderCart from "./components/icons/HeaderCart.vue";
     display: flex;
     align-items: center;
     height: 50px;
+  }
+
+  &__link_bottom {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--xiketic);
+  }
+
+  &__copiright {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--xiketic);
   }
 }
 </style>
